@@ -6,7 +6,7 @@ HERE IS ALL THE PLUGIN OF LEGENDBOT
 - Fork The Main Repo 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrvk170/LEGENDUSERBOT-1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrvk1703/LEGENDUSERBOT-1)
 
 
 - Go to Setting Of Repo 
