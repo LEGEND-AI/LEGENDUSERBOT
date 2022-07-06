@@ -176,7 +176,7 @@ async def getbaed(event):
     require_admin=True,
 )
 async def set_group_photo(event):  # sourcery no-metrics
-    "For changing Group dp"
+    "header": "For changing group dp",
     type = (event.pattern_match.group(1)).strip()
     if type == "-s":
         replymsg = await event.get_reply_message()
