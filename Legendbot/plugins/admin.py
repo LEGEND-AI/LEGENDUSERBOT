@@ -231,7 +231,7 @@ async def set_group_photo(event):  # sourcery no-metrics
     info={
         "header": "To give admin rights for a person",
         "description": "Provides admin rights to the person in the chat\
-            \nNote : You need proper rights for this
+            \nNote : You need proper rights for this\
             \nSupport DB :- ADMIN_PIC",
         "usage": [
             "{tr}promote <userid/username/reply>",
@@ -288,7 +288,7 @@ async def promote(event):
     info={
         "header": "To remove a person from admin list",
         "description": "Removes all admin rights for that peron in that chat\
-            \nNote : You need proper rights for this and also u must be owner or admin who promoted that guy",
+            \nNote : You need proper rights for this and also u must be owner or admin who promoted that guy\
             \nSupport DB :- ADMIN_PIC",
         "usage": [
             "{tr}demote <userid/username/reply>",
@@ -337,7 +337,7 @@ async def demote(event):
     info={
         "header": "Will ban the guy in the group where you used this command.",
         "description": "Permanently will remove him from this group and he can't join back\
-            \nNote : You need proper rights for this.",
+            \nNote : You need proper rights for this.\
             \nSupport DB :- ADMIN_PIC",
         "usage": [
             "{tr}ban <userid/username/reply>",
@@ -454,7 +454,7 @@ async def watcher(event):
         "header": "To stop sending messages from that user",
         "description": "If is is not admin then changes his permission in group,\
             if he is admin or if you try in personal chat then his messages will be deleted\
-            \nNote : You need proper rights for this.",
+            \nNote : You need proper rights for this.\
             \nSupport DB :- ADMIN_PIC",
         "usage": [
             "{tr}mute <userid/username/reply>",
@@ -624,7 +624,7 @@ async def endmute(event):
     info={
         "header": "To kick a person from the group",
         "description": "Will kick the user from the group so he can join back.\
-        \nNote : You need proper rights for this.",
+        \nNote : You need proper rights for this.\
         \nSupport DB :- ADMIN_PIC",
         "usage": [
             "{tr}kick <userid/username/reply>",
