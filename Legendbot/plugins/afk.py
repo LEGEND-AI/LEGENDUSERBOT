@@ -142,8 +142,6 @@ async def on_afk(event):  # sourcery no-metrics
         hmm = await event.get_chat()
         if gvarstatus("AFKFWD") is None:
             return False
-        if gvarstatus("AFKFWD") == "OFF":
-            return False
         full = None
         try:
             full = await event.client.get_entity(event.message.from_id)
@@ -174,7 +172,8 @@ async def on_afk(event):  # sourcery no-metrics
         "header": "Enables afk for your account",
         "description": "When you are in afk if any one tags you then your bot will reply as he is offline.\
         AFK mean away from keyboard.",
-        "options": "If you want AFK reason with hyperlink use [ ; ] after reason, then paste the media link.",
+        "options": "If you want AFK reason with hyperlink use [ ; ] after reason, then paste the media link.\
+        \nAFKFWD",
         "usage": [
             "{tr}afk <reason>",
             "{tr}afk <reason> ; <link>",
