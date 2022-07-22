@@ -28,7 +28,7 @@ from ..helpers import media_type
 from ..helpers.utils import _format, get_user_from_event
 from ..sql_helper.globals import gvarstatus
 from ..sql_helper.mute_sql import is_muted, mute, unmute
-from . import BOTLOG, BOTLOG_CHATID, ban_pic, demote_pic, mute_pic, promote_pic, main_pic 
+from . import BOTLOG, BOTLOG_CHATID, main_pic
 
 # =================== STRINGS ============
 PP_TOO_SMOL = "`The image is too small`"
