@@ -65,22 +65,22 @@ ADMIN_PIC = gvarstatus("ADMIN_PIC")
 if ADMIN_PIC:
     prmt_pic = ADMIN_PIC
 else:
-    prmt_pic = promote_pic
+    prmt_pic = None
 
 if ADMIN_PIC:
     bn_pic = ADMIN_PIC
 else:
-    bn_pic = ban_pic
+    bn_pic = None
 
 if ADMIN_PIC:
     dmt_pic = ADMIN_PIC
 else:
-    dmt_pic = demote_pic
+    dmt_pic = None
 
 if ADMIN_PIC:
     mt_pic = ADMIN_PIC
 else:
-    mt_pic = mute_pic
+    mt_pic = None
 
 
 LOGS = logging.getLogger(__name__)
