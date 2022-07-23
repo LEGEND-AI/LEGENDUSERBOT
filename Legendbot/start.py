@@ -37,9 +37,7 @@ async def killer():
     The_LegendBoy = bot.uid
     legd_mention = f"[{LEGEND_USER}](tg://user?id={The_LegendBoy})"
     name = f"{legd_mention}'s Assistant"
-    description = (
-        f"I am Assistant Of {legd_mention}.This Bot Can Help U To Chat With My Master  @LegendBot_XD"
-    )
+    description = f"I am Assistant Of {legd_mention}.This Bot Can Help U To Chat With My Master  @LegendBot_XD"
     starkbot = await legend.tgbot.get_me()
     bot_name = starkbot.first_name
     botname = f"@{starkbot.username}"
